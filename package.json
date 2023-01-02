@@ -8,6 +8,9 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-iconfont": "^11.0.1",
+    "gulp-consolidate": "^0.1.2",
+    "underscore": "^1.8.3",
     "gulp-sass": "^4.0.1",
     "gulp-sass-lint": "^1.4.0"
   },
