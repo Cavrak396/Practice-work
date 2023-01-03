@@ -78,6 +78,6 @@ gulp.task("copy-img", () => {
 
 gulp.task("copyfonts", () => {
   gulp
-    .src("src/fonts/**/*.{ttf,woff,eof,svg}")
+    .src("src/fonts/**/*.{ttf,woff,woff2,eof,svg}")
     .pipe(gulp.dest("dist/text-fonts"));
 });
