@@ -64,7 +64,7 @@ gulp.task("default", ['scss'], () => {
   
   //4. Gulp project-build
 
-  gulp.task("project-build", ["copy-html", "copy-img"]);
+  gulp.task("project-build", ["copy-html", "copy-img", "copyfonts"]);
 
 
   gulp.task("copy-html", () => {
@@ -76,3 +76,8 @@ gulp.task("default", ['scss'], () => {
     return gulp.src('src/images/*.{gif,jpg,png,svg,webp}')
         .pipe(gulp.dest('dist/images'));
   });
+
+  gulp.task('copyfonts', () => {
+    gulp.src('src/fonts/**/*.{ttf,woff,eof,svg}')
+    .pipe(gulp.dest('dist/text-fonts'));
+ });
