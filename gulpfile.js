@@ -62,3 +62,17 @@ gulp.task("default", ['scss'], () => {
       .pipe(gulp.dest("dist/fonts"));
   });
   
+  //4. Gulp project-build
+
+  gulp.task("project-build", ["copy-html", "copy-img"]);
+
+
+  gulp.task("copy-html", () => {
+    return gulp.src("*.html")
+    .pipe(gulp.dest("dist"))
+  })
+
+  gulp.task('copy-img', () => {
+    return gulp.src('src/images/*.{gif,jpg,png,svg,webp}')
+        .pipe(gulp.dest('dist/images'));
+  });
