@@ -1,7 +1,5 @@
-
-
-//Abstracts 
-@import "src/scss/abstracts/variables";
+//Abstracts
+@import "abstracts/variables";
 @import "abstracts/mixins";
 
 //Base
@@ -10,7 +8,9 @@
 @import "base/fonts";
 @import "base/helpers";
 @import "base/icon-font/iconfont.scss";
-//Components 
+//Components
 @import "components/buttons";
 
-//Layout 
+//Layout
+@import "layout/header";
+@import "layout/banner";

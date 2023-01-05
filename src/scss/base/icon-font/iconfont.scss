@@ -3,11 +3,11 @@ iconfont Webfont
 */
 @font-face {
 	font-family: 'iconfont';
-	src: url('../fonts/iconfont.eot?1672684938263');
-	src: url('../fonts/iconfont.eot?#iefix-1672684938263') format('embedded-opentype'),
-		url('../fonts/iconfont.woff2?1672684938263') format('woff2'),
-		url('../fonts/iconfont.woff?1672684938263') format('woff'),
-		url('../fonts/iconfont.ttf?1672684938263') format('truetype');
+	src: url('../fonts/iconfont.eot?1672854758874');
+	src: url('../fonts/iconfont.eot?#iefix-1672854758874') format('embedded-opentype'),
+		url('../fonts/iconfont.woff2?1672854758874') format('woff2'),
+		url('../fonts/iconfont.woff?1672854758874') format('woff'),
+		url('../fonts/iconfont.ttf?1672854758874') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -33,10 +33,18 @@ iconfont Webfont
 Glyphs list
 */
 
-.icon-balance-scale-svgrepo-com::before {
+.icon-bag-check::before {
 	content: '\ea01';
 }
 
-.icon-car2-sf-svgrepo-com::before {
+.icon-logo-circle::before {
 	content: '\ea02';
+}
+
+.icon-nav-bag::before {
+	content: '\ea03';
+}
+
+.icon-nav-profile::before {
+	content: '\ea04';
 }

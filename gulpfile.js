@@ -64,13 +64,13 @@ gulp.task("iconfont", () => {
 
 //4. Gulp project-build
 
-gulp.task("project-build", ["copy-html", "copy-img", "copyfonts", "copy-js"]);
+gulp.task("project-build", ["scss","copy-html", "copy-img", "copyfonts", "copy-js"]);
 
 gulp.task("copy-html", () => {
   return gulp.src("*.html").pipe(gulp.dest("dist"));
 });
 gulp.task("copy-js", () => {
-  return gulp.src("src/js/*.js").pipe(gulp.dest("dist"));
+  return gulp.src("src/js/*.js").pipe(gulp.dest("dist/js"));
 });
 gulp.task("copy-img", () => {
   return gulp
