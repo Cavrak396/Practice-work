@@ -1,0 +1,139 @@
+//About properies
+
+//Main layout settings
+.about__line {
+  display: flex;
+  justify-content: space-between;
+}
+.about__text {
+  position: relative;
+  max-width: 70.5%;
+  flex: 1 1 70.5%;
+  padding: 0 20px;
+  @include background;
+  &::after {
+    @include darker;
+  }
+}
+.about__decoration {
+  position: relative;
+  padding: 0 20px;
+  margin-left: 0 20px;
+  max-width: calc(29.5% - 40px);
+  flex: 1 1 calc(25.5% - 40px);
+  background-image: linear-gradient(
+    to left bottom,
+    #7d2bc4,
+    #7a138f,
+    #680762,
+    #4f093d,
+    #320c21,
+    #320c21,
+    #320c21,
+    #320c21,
+    #4f093d,
+    #680762,
+    #7a138f,
+    #7d2bc4
+  );
+}
+
+//Inner settings
+
+.about__text-inner {
+  max-width: 821px;
+  margin: 0 auto;
+}
+.about__text-interiority {
+  padding: 294px 0 161px 0;
+  color: $white;
+  max-width: 551px;
+  position: relative;
+  z-index: 9999;
+}
+.about__above-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 43px;
+}
+.about__weight {
+  margin-right: 21px;
+  max-width: 70px;
+  flex: 1 1 70px;
+}
+.about__header-above {
+  font-size: 13px;
+  letter-spacing: 4.7px;
+}
+.about__header {
+  font-size: 50px;
+  line-height: 59px;
+  margin-bottom: 37px;
+}
+.about__lines {
+  letter-spacing: -0.5px;
+  max-width: 473px;
+  line-height: 27px;
+}
+
+.about__img {
+  position: absolute;
+  z-index: 99999;
+  left: -112px;
+  top: 241px;
+  max-width: 350px;
+  max-height: 479px;
+}
+
+@media screen and (max-width: 1200px) {
+  .about__line {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about__text {
+    max-width: 100%;
+    flex: 1 1 100%;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .about__text-interiority {
+    margin: 0 auto;
+  }
+  .about__decoration {
+    max-width: 100%;
+    flex: 1 1 100%;
+    min-height: 550px;
+  }
+
+  .about__img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    max-height: 479px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about__text-interiority {
+    padding: 47px 0 161px 0;
+  }
+  .about__above-header {
+    flex-direction: column;
+  }
+  .about__weight {
+    margin-bottom: 20px;
+  }
+  .about__header {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 37px;
+  }
+  .about__lines {
+    font-size: 14px;
+  }
+  .about__img {
+    max-width: 250px;
+    max-height: 379px;
+  }
+}
