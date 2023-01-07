@@ -5,6 +5,7 @@
 }
 .banner {
   position: relative;
+  z-index: 2;
 }
 .banner__line {
   display: flex;
@@ -75,6 +76,10 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .banner__text {
+    padding-top: 54px;
+    min-height: 423px;
+  }
   .banner__above {
     font-size: 15px;
   }

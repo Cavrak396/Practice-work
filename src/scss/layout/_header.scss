@@ -61,6 +61,9 @@
   display: none;
 }
 @media screen and (max-width: 768px) {
+  .header__line {
+    padding: 19px 0;
+  }
   .header__hamburger {
     display: block;
   }
@@ -72,13 +75,17 @@
     display: block;
   }
   .header__navigation-list {
+    background-color: $deep__gray;
+    padding: 20px 0;
     width: 100%;
+    z-index: 1;
     flex-direction: column;
     position: absolute;
     left: -100%;
     top: 120px;
     align-items: center;
     justify-content: center;
+    transition: $normal;
     .header__navigation-item {
       margin-bottom: 20px;
     }
