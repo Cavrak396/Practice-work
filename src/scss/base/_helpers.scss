@@ -2,6 +2,11 @@
 body {
   background-color: $light_black;
 }
+header,
+main,
+footer {
+  overflow: hidden;
+}
 span {
   display: inline-block;
 }
@@ -25,3 +30,4 @@ a {
   max-width: 70px;
   max-height: 70px;
 }
+

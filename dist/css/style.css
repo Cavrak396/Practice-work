@@ -55,7 +55,18 @@ body {
   text-transform: uppercase; }
 
 p {
-  font-size: 16px; }
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  line-height: 27px; }
+
+h2 {
+  font-size: 50px; }
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 30px; }
+  p {
+    font-size: 14px; } }
 
 @font-face {
   font-family: "Poppins";
@@ -122,6 +133,11 @@ p {
 
 body {
   background-color: #252525; }
+
+header,
+main,
+footer {
+  overflow: hidden; }
 
 span {
   display: inline-block; }
@@ -203,6 +219,10 @@ button {
   padding: 13px 43px;
   color: white;
   margin-left: 12px; }
+
+.offers__button {
+  padding: 15px 65px;
+  color: white; }
 
 .header {
   position: relative; }
@@ -374,7 +394,8 @@ button {
 
 .about__line {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 47px; }
 
 .about__text {
   position: relative;
@@ -398,7 +419,7 @@ button {
 .about__decoration {
   position: relative;
   padding: 0 20px;
-  margin-left: 0 20px;
+  margin-left: 20px;
   max-width: calc(29.5% - 40px);
   flex: 1 1 calc(25.5% - 40px);
   background-image: linear-gradient(to left bottom, #7d2bc4, #7a138f, #680762, #4f093d, #320c21, #320c21, #320c21, #320c21, #4f093d, #680762, #7a138f, #7d2bc4); }
@@ -477,11 +498,51 @@ button {
   .about__weight {
     margin-bottom: 20px; }
   .about__header {
-    font-size: 30px;
     line-height: 35px;
     margin-bottom: 37px; }
-  .about__lines {
-    font-size: 14px; }
   .about__img {
     max-width: 250px;
     max-height: 379px; } }
+
+.offers__join-text {
+  padding: 140px 20px 0 20px;
+  margin: 0 auto 54px auto;
+  max-width: 748px;
+  color: white;
+  text-align: center; }
+
+.offers__eye {
+  margin-bottom: 40px; }
+
+.offers__header {
+  margin-bottom: 28px; }
+
+.offers__lines {
+  max-width: 671px;
+  margin: 0 auto; }
+
+.offers__watches {
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 57px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.offers__photo {
+  max-width: 953px;
+  max-height: 694px; }
+
+.offers__button-holder {
+  display: flex;
+  justify-content: center; }
+
+@media screen and (max-width: 1200px) {
+  .offers__photo {
+    max-width: 700px;
+    max-height: 500px; } }
+
+@media screen and (max-width: 768px) {
+  .offers__photo {
+    max-width: 400px;
+    max-height: 300px; } }

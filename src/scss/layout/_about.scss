@@ -4,6 +4,7 @@
 .about__line {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 47px;
 }
 .about__text {
   position: relative;
@@ -15,10 +16,11 @@
     @include darker;
   }
 }
+
 .about__decoration {
   position: relative;
   padding: 0 20px;
-  margin-left: 0 20px;
+  margin-left: 20px;
   max-width: calc(29.5% - 40px);
   flex: 1 1 calc(25.5% - 40px);
   background-image: linear-gradient(
@@ -125,12 +127,8 @@
     margin-bottom: 20px;
   }
   .about__header {
-    font-size: 30px;
     line-height: 35px;
     margin-bottom: 37px;
-  }
-  .about__lines {
-    font-size: 14px;
   }
   .about__img {
     max-width: 250px;
