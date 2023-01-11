@@ -1,8 +1,10 @@
+//Classic bg properties for project 
 @mixin background{
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
+//Mixin for darker background img
 @mixin darker {
     position: absolute;
     content: "";
@@ -13,4 +15,17 @@
     background-color: $light_black;
     z-index: 2;
     opacity:0.6;
+}
+//Specific mixin for presentation textes 
+@mixin presentation-text {
+    padding: 294px 0 161px 0;
+    color: $white;
+    max-width: 551px;
+    position: relative;
+    z-index: 9999;
+}
+@mixin presentation-lines {
+    letter-spacing: -0.5px;
+    max-width: 473px;
+    line-height: 27px;
 }

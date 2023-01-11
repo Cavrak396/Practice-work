@@ -2,11 +2,7 @@
 body {
   background-color: $light_black;
 }
-header,
-main,
-footer {
-  overflow: hidden;
-}
+
 span {
   display: inline-block;
 }
@@ -19,15 +15,20 @@ span {
 .wrap--primary {
   max-width: 1800px;
 }
+.wrap--secondary {
+  max-width: 1468px;
+}
+.wrap--tertiary {
+  max-width: 1564px;
+}
 //Links
 
 a {
   text-decoration: none;
 }
 
-//Universal sizes for icon photo 
+//Universal sizes for icon photo
 .presentation-photo {
   max-width: 70px;
   max-height: 70px;
 }
-

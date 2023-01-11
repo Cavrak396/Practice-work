@@ -24,7 +24,9 @@ button {
   color: $white;
   margin-left: 12px;
 }
-.offers__button {
-  padding: 15px 65px;
+.offers__button,
+.specifications__button,
+.contact__button {
+  padding: 15px 71px;
   color: $white;
 }

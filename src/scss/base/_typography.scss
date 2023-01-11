@@ -5,6 +5,8 @@ body {
 }
 .header-above {
     text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 4.7px;
 }
 p {
     font-size: 16px;
@@ -13,13 +15,7 @@ p {
 }
 h2 {
     font-size: 50px;
+    line-height: 59px;
 }
 
-@media screen and (max-width: 768px) {
-    h2 {
-        font-size: 30px;
-    }
-    p {
-        font-size: 14px;
-    }
-}
+

@@ -47,11 +47,7 @@
   margin: 0 auto;
 }
 .about__text-interiority {
-  padding: 294px 0 161px 0;
-  color: $white;
-  max-width: 551px;
-  position: relative;
-  z-index: 9999;
+@include presentation-text;
 }
 .about__above-header {
   display: flex;
@@ -63,19 +59,11 @@
   max-width: 70px;
   flex: 1 1 70px;
 }
-.about__header-above {
-  font-size: 13px;
-  letter-spacing: 4.7px;
-}
 .about__header {
-  font-size: 50px;
-  line-height: 59px;
   margin-bottom: 37px;
 }
 .about__lines {
-  letter-spacing: -0.5px;
-  max-width: 473px;
-  line-height: 27px;
+@include presentation-lines;
 }
 
 .about__img {
@@ -104,6 +92,7 @@
   .about__decoration {
     max-width: 100%;
     flex: 1 1 100%;
+    margin: 0;
     min-height: 550px;
   }
 
@@ -127,6 +116,7 @@
     margin-bottom: 20px;
   }
   .about__header {
+    font-size: 30px;
     line-height: 35px;
     margin-bottom: 37px;
   }

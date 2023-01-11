@@ -1,0 +1,160 @@
+//Contact properties
+.contact {
+  margin-bottom: 338px;
+}
+.contact__cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+.contact__card {
+  display: block;
+  position: relative;
+  color: $white;
+  margin: 0 20px;
+  max-width: calc(50% - 40px);
+  flex: 1 1 calc(50% - 40px);
+  padding: 51px 0 650px 0;
+  text-align: center;
+  @include background;
+  &:hover {
+    box-shadow: 5px 10px 20px 5px $black inset;
+    transition: $fast;
+  }
+  &::after {
+    @include darker;
+  }
+}
+.contact__card-inner {
+  position: relative;
+  z-index: 9999;
+  max-width: 368px;
+  margin: 0 auto;
+}
+.contact__card-image {
+  margin-bottom: 31px;
+}
+.contact__card-above {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contact__card-header {
+  font-size: 39px;
+  line-height: 46px;
+}
+
+//Contact starter
+.contact__starter {
+  color: $white;
+  text-align: center;
+  padding-top: 114px;
+  margin-bottom: 97px;
+}
+.contact__starter-join {
+  max-width: 814px;
+  margin: 0 auto 41px auto;
+}
+.contact__starter-image {
+  margin-bottom: 19px;
+}
+.contact__header-above {
+  margin-bottom: 30px;
+}
+.contact__header {
+  margin-bottom: 40px;
+}
+.contact__image-holder {
+  max-width: 976px;
+  margin: 0 auto;
+  .contact__image {
+    max-width: 100%;
+  }
+}
+
+//Form
+.contact__form {
+  max-width: 980px;
+  margin: 0 auto;
+  color: $white;
+  text-align: center;
+  font-size: 0;
+  padding: 0 49px 0 39px;
+  .contact__form-label {
+    display: block;
+    text-align: start;
+    font-size: 16px;
+    margin-bottom: 19px;
+    padding-left: 42px;
+  }
+}
+.contact__form-header {
+  margin-bottom: 66px;
+}
+
+.contact__form-input {
+  width: 100%;
+  padding: 29px 220px 29px 39px;
+  border-radius: 37px;
+  display: inline-block;
+  font-size: 16px;
+}
+.contact__form-button {
+  display: inline-block;
+  margin-left: -206px;
+  padding: 22px 61px;
+  border-radius: 32px;
+  font-size: 18px;
+  color: $white;
+  &:hover {
+    background-color: $black;
+    color: $white;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contact__cards {
+    flex-direction: column;
+  }
+  .contact__card {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+  .contact__form {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    margin-bottom: 88px;
+  }
+  .contact__card {
+    padding: 51px 0 213px 0;
+    margin-bottom: 15px;
+  }
+  .contact__card-above {
+    font-size: 11px;
+  }
+  .contact__card-header {
+    font-size: 29px;
+  }
+  .contact__header,
+  .contact__form-header {
+    font-size: 30px;
+  }
+  .contact__form-input,
+  .contact__form-button {
+    display: block;
+  }
+  .contact__form-input {
+    margin-bottom: 15px;
+    padding: 19px 0 19px 5px;
+  }
+  .contact__form-button {
+    margin-left: 0;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

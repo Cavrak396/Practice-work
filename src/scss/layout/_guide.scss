@@ -1,0 +1,48 @@
+//Guide properties
+.guide {
+  position: relative;
+  background-attachment:fixed; 
+  @include background;
+  &::after {
+    @include darker;
+  }
+}
+.guide__text-interiority {
+  @include presentation-text;
+}
+.guide__text-interiority--changer {
+  padding: 164px 123px 230px 0;
+}
+.guide__above-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 43px;
+}
+.guide__alert {
+  margin-right: 21px;
+  max-width: 70px;
+  flex: 1 1 70px;
+}
+.guide__header {
+  margin-bottom: 42px;
+}
+
+@media screen and (max-width: 768px) {
+  .guide__text-interiority {
+    margin: 0 auto;
+  }
+  .guide__text-interiority--changer {
+    padding: 164px 0 230px 0;
+  }
+  .guide__above-header {
+    flex-direction: column;
+  }
+  .aguide__alert {
+    margin-bottom: 20px;
+  }
+  .guide__header {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 37px;
+  }
+}
