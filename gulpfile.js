@@ -13,7 +13,7 @@ gulp.task("scss", () => {
 });
 
 //2. Watch task
-gulp.task("default", ["scss"], () => {
+gulp.task("default", ["scss", "scss-lint"], () => {
   gulp.watch("src/**/*.scss"), ["scss"];
 });
 
