@@ -205,7 +205,8 @@ h2 {
 
 @media screen and (max-width: 768px) {
   h2 {
-    font-size: 30px; } }
+    font-size: 30px;
+    line-height: 45px; } }
 
 button {
   background: none;
@@ -543,7 +544,10 @@ button {
   .about__img-phone,
   .about__img-watches {
     max-width: 300px;
-    max-height: 350px; } }
+    max-height: 350px; }
+  .about__weight,
+  .about__chat {
+    margin-right: 1px; } }
 
 .offers {
   margin-bottom: 171px; }
@@ -640,8 +644,8 @@ button {
     padding: 164px 0 230px 0; }
   .guide__above-header {
     flex-direction: column; }
-  .aguide__alert {
-    margin-bottom: 20px; }
+  .guide__alert {
+    margin: 0 0 20px 0; }
   .guide__header {
     font-size: 30px;
     line-height: 35px;
