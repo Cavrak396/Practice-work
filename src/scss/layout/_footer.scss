@@ -1,10 +1,6 @@
 .footer {
   font-size: 14px;
-  background-image: linear-gradient(
-    to bottom,
-    $deep__gray,
-    $deep_purple,
-  );
+  background-image: linear-gradient(to bottom, $deep__gray, $deep_purple);
 }
 .footer__top {
   border-bottom: $white solid 1px;
@@ -23,15 +19,13 @@
 }
 .footer__top-social {
   .footer__top-item {
-     &:first-child {
-    margin: 0 4px 0 0;
+    &:first-child {
+      margin: 0 4px 0 0;
+    }
   }
-  }
-
 }
 .footer__top-item {
   margin: 0 16px 0 30px;
-
 }
 .footer__top-link {
   letter-spacing: -0.6px;
