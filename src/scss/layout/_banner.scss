@@ -15,6 +15,7 @@
 .banner__image {
   max-width: 50%;
   flex: 1 1 50%;
+  position: relative;
 }
 .banner__text {
   padding-top: 213px;
@@ -31,11 +32,6 @@
   font-size: 25px;
   margin-bottom: 28px;
 }
-.banner__header {
-  font-size: 70px;
-  letter-spacing: 2.4px;
-  margin-bottom: 23px;
-}
 .banner__lines {
   font-size: 24px;
   letter-spacing: -1px;
@@ -48,9 +44,11 @@
 
 .banner__image-fold {
   position: absolute;
-  right: 60px;
+  left: 348px;
   bottom: 122px;
   transform: rotate(-10deg);
+  max-width: 548px;
+  max-height: 540px;
 }
 
 @media screen and (max-width: 1200px) {

@@ -1,5 +1,10 @@
 .footer {
   font-size: 14px;
+  background-image: linear-gradient(
+    to bottom,
+    $deep__gray,
+    $deep_purple,
+  );
 }
 .footer__top {
   border-bottom: $white solid 1px;
@@ -69,19 +74,19 @@
   max-width: 100%;
 }
 @media screen and (max-width: 1200px) {
-    .footer__top {
-        border-top: $white solid 1px;
-        border-bottom: none;
-        max-width: 100%;
-        padding: 40px 0 0 0;
-      }
+  .footer__top {
+    border-top: $white solid 1px;
+    border-bottom: none;
+    max-width: 100%;
+    padding: 40px 0 0 0;
+  }
   .footer__bottom-line {
     flex-direction: column-reverse;
     text-align: center;
   }
   .footer__bottom-cards {
     max-height: 75px;
-    margin: 0 auto;
+    margin: 0 auto 15px auto;
   }
   .footer__top-item {
     margin-bottom: 15px;

@@ -7,6 +7,7 @@ button {
   border-radius: 20px;
   background-color: $purple;
   display: inline-block;
+  box-shadow: 0px 0px 6px 1px $purple;
    &:hover {
     transition: $normal;
     background-color: $white;

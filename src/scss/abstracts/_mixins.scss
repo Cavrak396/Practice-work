@@ -29,3 +29,22 @@
     max-width: 473px;
     line-height: 27px;
 }
+//Mixin for default linear gradient 
+
+@mixin linear {
+    background-image: linear-gradient(
+    to left bottom,
+    $purple,
+    $pink,
+    $dark_pink,
+    $light_red,
+    $dark_red,
+    $dark_red,
+    $dark_red,
+    $dark_red,
+    $light_red,
+    $dark_pink,
+    $pink,
+    $purple
+  );
+}
