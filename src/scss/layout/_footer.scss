@@ -100,4 +100,11 @@
   .footer__top-terms {
     flex-direction: column;
   }
+  .footer__top-social {
+    .footer__top-item {
+      &:first-child {
+          margin: 0 16px 15px 30px;
+      }
+    }
+  }
 }
