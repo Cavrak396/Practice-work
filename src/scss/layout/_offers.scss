@@ -5,15 +5,15 @@
 .offers__join-text {
   padding: 140px 20px 0 20px;
   margin: 0 auto 54px auto;
-  max-width: 748px;
+  max-width: 788px;
   color: $white;
   text-align: center;
 }
 .offers__eye {
-  margin-bottom: 40px;
+  margin-bottom: 34px;
 }
 .offers__header {
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 .offers__lines {
   max-width: 671px;
@@ -25,7 +25,6 @@
   margin-bottom: 57px;
   @include background;
 }
-
 .offers__photo {
   max-width: 953px;
   max-height: 694px;
@@ -40,7 +39,6 @@
         max-height: 500px;
       }
 }
-
 @media screen and (max-width: 768px) {
     .offers__join-text {
         padding-top: 0;

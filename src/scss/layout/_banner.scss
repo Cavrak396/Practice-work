@@ -15,7 +15,6 @@
 .banner__image {
   max-width: 50%;
   flex: 1 1 50%;
-  position: relative;
 }
 .banner__text {
   padding-top: 213px;
@@ -44,8 +43,8 @@
 
 .banner__image-fold {
   position: absolute;
-  left: 348px;
-  bottom: 122px;
+  right: 54px;
+  bottom: 156px;
   transform: rotate(-10deg);
   max-width: 548px;
   max-height: 540px;

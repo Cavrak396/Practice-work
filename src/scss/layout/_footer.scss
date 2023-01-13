@@ -21,8 +21,17 @@
   display: flex;
   padding-left: 14px;
 }
+.footer__top-social {
+  .footer__top-item {
+     &:first-child {
+    margin: 0 4px 0 0;
+  }
+  }
+
+}
 .footer__top-item {
-  margin-right: 38px;
+  margin: 0 16px 0 30px;
+
 }
 .footer__top-link {
   letter-spacing: -0.6px;
