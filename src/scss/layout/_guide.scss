@@ -26,14 +26,17 @@
 .guide__header {
   margin-bottom: 42px;
 }
-
+@media screen and (max-width: 1200px){
+   .guide__text-interiority--changer {
+    padding: 164px 0 230px 0;
+    margin: 0 auto;
+  }
+}
 @media screen and (max-width: 768px) {
   .guide__text-interiority {
     margin: 0 auto;
   }
-  .guide__text-interiority--changer {
-    padding: 164px 0 230px 0;
-  }
+ 
   .guide__above-header {
     flex-direction: column;
   }
