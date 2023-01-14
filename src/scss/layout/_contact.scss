@@ -114,7 +114,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@include tablet {
   .contact__cards {
     flex-direction: column;
   }
@@ -126,7 +126,7 @@
     padding: 0;
   }
 }
-@media screen and (max-width: 768px) {
+@include phone {
   .contact {
     margin-bottom: 88px;
   }

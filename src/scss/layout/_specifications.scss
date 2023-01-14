@@ -79,7 +79,7 @@
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 1200px) {
+@include tablet {
   .specifications__offers,
   .specifications__cloud,
   .specifications__image {
@@ -97,12 +97,12 @@
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 768px){
+@include phone{
     .specifications__header {
         font-size: 30px;
     }
     .specifications__image {
-        max-width: 300px;
+        max-width: 240px;
         max-height: 400px;
         margin-left:0;
       }

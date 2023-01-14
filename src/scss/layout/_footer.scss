@@ -15,6 +15,7 @@
 .footer__top-social,
 .footer__top-terms {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 14px;
 }
 .footer__top-social {
@@ -76,7 +77,7 @@
 .footer__bottom-image {
   max-width: 100%;
 }
-@media screen and (max-width: 1200px) {
+@include tablet {
   .footer__top {
     border-top: $white solid 1px;
     border-bottom: none;
@@ -90,15 +91,17 @@
   .footer__bottom-cards {
     max-height: 75px;
     margin: 0 auto 15px auto;
+    justify-content: center;
   }
   .footer__top-item {
     margin-bottom: 15px;
   }
 }
-@media screen and (max-width: 768px) {
+@include phone {
   .footer__top-social,
   .footer__top-terms {
     flex-direction: column;
+    padding-left: 0;
   }
   .footer__top-social {
     .footer__top-item {

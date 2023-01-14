@@ -50,7 +50,7 @@
   max-height: 540px;
 }
 
-@media screen and (max-width: 1200px) {
+@include tablet {
   .banner {
     position: static;
   }
@@ -73,7 +73,7 @@
     }
   }
 }
-@media screen and (max-width: 768px) {
+@include phone {
   .banner__text {
     padding-top: 54px;
     min-height: 423px;
@@ -88,7 +88,7 @@
     font-size: 16px;
   }
   .banner__image-fold {
-    max-width: 290px;
+    max-width: 240px;
     max-height: 290px;
   }
 }

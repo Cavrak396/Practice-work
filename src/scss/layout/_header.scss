@@ -59,7 +59,7 @@
 .header__hamburger {
   display: none;
 }
-@media screen and (max-width: 768px) {
+@include phone {
   .header__line {
     padding: 19px 0;
   }

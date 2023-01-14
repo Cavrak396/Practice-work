@@ -407,7 +407,7 @@ button {
   .banner__lines {
     font-size: 16px; }
   .banner__image-fold {
-    max-width: 290px;
+    max-width: 240px;
     max-height: 290px; } }
 
 .about {
@@ -543,7 +543,7 @@ button {
 @media screen and (max-width: 768px) {
   .about__img-phone,
   .about__img-watches {
-    max-width: 300px;
+    max-width: 250px;
     max-height: 350px; }
   .about__weight,
   .about__chat {
@@ -745,7 +745,7 @@ button {
   .specifications__header {
     font-size: 30px; }
   .specifications__image {
-    max-width: 300px;
+    max-width: 240px;
     max-height: 400px;
     margin-left: 0; } }
 
@@ -913,6 +913,7 @@ button {
 .footer__top-social,
 .footer__top-terms {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 14px; }
 
 .footer__top-social .footer__top-item:first-child {
@@ -976,13 +977,15 @@ button {
     text-align: center; }
   .footer__bottom-cards {
     max-height: 75px;
-    margin: 0 auto 15px auto; }
+    margin: 0 auto 15px auto;
+    justify-content: center; }
   .footer__top-item {
     margin-bottom: 15px; } }
 
 @media screen and (max-width: 768px) {
   .footer__top-social,
   .footer__top-terms {
-    flex-direction: column; }
+    flex-direction: column;
+    padding-left: 0; }
   .footer__top-social .footer__top-item:first-child {
     margin: 0 16px 15px 30px; } }

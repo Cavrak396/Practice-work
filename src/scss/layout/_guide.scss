@@ -26,13 +26,13 @@
 .guide__header {
   margin-bottom: 42px;
 }
-@media screen and (max-width: 1200px){
+@include tablet{
    .guide__text-interiority--changer {
     padding: 164px 0 230px 0;
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 768px) {
+@include phone {
   .guide__text-interiority {
     margin: 0 auto;
   }

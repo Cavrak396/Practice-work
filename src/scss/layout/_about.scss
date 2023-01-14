@@ -106,7 +106,7 @@
 .about__lines {
   max-width: 477px;
 }
-@media screen and (max-width: 1200px) {
+@include tablet {
   .about__line {
     flex-direction: column;
     margin: 0 -20px 46px -20px;
@@ -134,10 +134,10 @@
     padding: 20px 0;
   }
 }
-@media screen and (max-width: 768px) {
+@include phone {
   .about__img-phone,
   .about__img-watches {
-    max-width: 300px;
+    max-width: 250px;
     max-height: 350px;
   }
   .about__weight,
