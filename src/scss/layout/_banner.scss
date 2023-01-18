@@ -26,7 +26,6 @@
   border-radius: 117px;
   max-width: 770px;
 }
-
 .banner__above {
   font-size: 25px;
   margin-bottom: 28px;
@@ -40,7 +39,6 @@
 .banner__lines {
   padding-left: 6px;
 }
-
 .banner__image-fold {
   position: absolute;
   right: 54px;
@@ -49,7 +47,6 @@
   max-width: 548px;
   max-height: 540px;
 }
-
 @include tablet {
   .banner {
     position: static;

@@ -848,7 +848,8 @@ button {
   padding: 29px 220px 29px 39px;
   border-radius: 37px;
   display: inline-block;
-  font-size: 16px; }
+  font-size: 16px;
+  border: none; }
 
 .contact__form-button {
   display: inline-block;

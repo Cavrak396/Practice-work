@@ -30,7 +30,6 @@
   flex: 1 1 calc(72.8% - 40px);
   margin: 0 20px;
 }
-
 .about__photo-side {
   position: relative;
   max-width: calc(29% - 40px);
@@ -44,7 +43,6 @@
   flex: 1 1 calc(27.2% - 40px);
   margin: 0 20px;
 }
-
 .about__img-phone {
   position: absolute;
   max-width: 350px;
@@ -61,7 +59,6 @@
   max-height: 409px;
   z-index: 99999;
 }
-
 .about__text {
   margin: 0 auto;
   max-width: 820px;
@@ -79,7 +76,6 @@
     max-width: 525px;
   }
 }
-
 .about__header-above {
   display: flex;
   align-items: center;
@@ -88,7 +84,6 @@
 .about__header-above--changer {
   margin-bottom: 45px;
 }
-
 .about__weight {
   max-width: 70px;
   max-height: 70px;

@@ -38,12 +38,10 @@
   font-weight: 700;
   margin-bottom: 30px;
 }
-
 .contact__card-header {
   font-size: 39px;
   line-height: 46px;
 }
-
 //Contact starter
 .contact__starter {
   color: $white;
@@ -92,13 +90,13 @@
 .contact__form-header {
   margin-bottom: 66px;
 }
-
 .contact__form-input {
   width: 100%;
   padding: 29px 220px 29px 39px;
   border-radius: 37px;
   display: inline-block;
   font-size: 16px;
+  border: none;
 }
 .contact__form-button {
   display: inline-block;
@@ -113,7 +111,6 @@
     cursor: pointer;
   }
 }
-
 @include tablet {
   .contact__cards {
     flex-direction: column;
