@@ -48,7 +48,7 @@
   max-height: 479px;
   top: 243px;
   left: -109px;
-  z-index: 99999;
+  z-index: 10;
 }
 .about__img-watches {
   position: absolute;
@@ -65,7 +65,7 @@
   .about__text-inner {
     max-width: 505px;
     position: relative;
-    z-index: 99999;
+    z-index: 10;
   }
 }
 .about__text--sizer {
